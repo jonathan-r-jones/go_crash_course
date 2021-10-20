@@ -4,8 +4,11 @@ import "fmt"
 
 func main() {
 
-	var name = "Brad"
+	// Shorthand
+	name := "Brad"
+	size := 1.3
 	var age = 37
-	fmt.Println(name, age)
-	fmt.Printf("%T\n", name)
+	var isCool = true
+	fmt.Println(name, age, isCool)
+	fmt.Printf("%T\n", size)
 }

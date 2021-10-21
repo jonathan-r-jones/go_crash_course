@@ -11,5 +11,10 @@ func main(){
 	fruitArr[2]="Banana"
 
 	fmt.Println(fruitArr)
-
+	
+	vegetableArry := [4]string{"Carrot", "Pea", "Lettuce", "Tomato"}
+	
+	fmt.Println(vegetableArry)
+	fmt.Println(len(vegetableArry))
+	fmt.Println(vegetableArry[1:3])
 }
